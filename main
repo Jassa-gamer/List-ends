@@ -1,0 +1,22 @@
+# Write a program that takes a list of numbers
+# (for example, a = [5, 10, 15, 20, 25]) and makes a new list of only the first and last elements of the given list.
+# For practice, write this code inside a function.
+
+
+def func1(a):
+    """This func will make a new list of only first and last elements of the given list."""
+    b = []
+    b.append(a[0])
+    b.append(a[-1])
+    print("First and last elements of the list are :", b)
+
+a = [5, 10, 15, 20, 25]
+func1(a)
+
+
+
+# def list_ends(a_list):
+#     return [a_list[0], a_list[-1]]
+#
+# a = [1,12,2,23,21,21,12,1,21,212,2112,122]
+# print(list_ends(a))
